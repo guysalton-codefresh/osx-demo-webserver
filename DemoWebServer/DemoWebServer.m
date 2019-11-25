@@ -10,7 +10,7 @@ int main(int argc, const char* argv[]) {
                              requestClass:[GCDWebServerRequest class]
                              processBlock:^GCDWebServerResponse *(GCDWebServerRequest* request) {
       
-      return [GCDWebServerDataResponse responseWithHTML:@"<html><body><p>I love Codefresh</p></body></html>"];
+      return [GCDWebServerDataResponse responseWithHTML:@"<html><body><p>This is an OSX app hosted in the cloud</p></body></html>"];
       
     }];
     
